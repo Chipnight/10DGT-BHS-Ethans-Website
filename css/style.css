@@ -2,7 +2,7 @@
 html{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0rem 2rem;
-  background-color: #4d8ff9;
+  background-color: #000000;
 }
 
 /* Banner image*/
@@ -22,7 +22,7 @@ nav ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #f5b2b2;
+  background-color: #1179aa;
   top: 0;
   width: 100%;
   text-align: center;
@@ -44,11 +44,12 @@ nav li a{
 }
 
 nav li:hover{
-  background-color: #cc53f9;
+  background-color: #d4824a
+;
 }
 
 nav #active{
-  background-color: #555af7;
+  background-color: #a92c22;
 }
 
 /* Styling for the main section*/
@@ -68,13 +69,18 @@ h1 {
 }
 
 h2 {
-  color: black;
+  color: white;
   font-size: 30px;
+  text-align: center;
+}
+h5 {
+  color: #ffffff;
+  font-size: 20px;
   text-align: center;
 }
 
 p {
-  color: black;
+  color: #ffffff;
   font-size: 14px;
   text-align: center;
 }
